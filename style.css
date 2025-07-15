@@ -1,0 +1,966 @@
+/* style navbar awal */
+.pembungkus1 {
+    width: 100%;
+    background-color: #aeaeae;
+}
+.apple-logo {
+    display: flex;
+    justify-content: start;
+    float: left;
+}
+.logo1 {
+    width: 80px;
+    aspect-ratio: 4/3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -15px;
+}
+.text-apple {
+    float: left;
+    display: flex;
+}
+.text {
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-left: -8px;
+    letter-spacing: 1px;
+    cursor: default;
+    color: black;
+}
+.navbar-lish {
+    display: flex;
+    justify-content: end;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-top: 17px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+li:hover {
+    text-decoration: underline;
+}
+.li1 {
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+.li2 {
+    margin-left: -30px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+/* style navbar akhir */
+
+
+
+/* style row kedua awal */
+.pembungkus2 {
+    width: 100%;
+    height: 35px;
+    background-color: #7d736f;
+    display: flex;
+    justify-content: center;
+}
+.text-promo {
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 6px;
+    cursor: default;
+}
+.limapuluh {
+    color: rgb(232, 24, 24);
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.limapuluh:hover {
+    text-decoration: underline;
+}
+/* style row kedua akhir */
+
+
+/* style row pertama awal */
+.gambar-apple-geser {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.gambar-apple1 {
+    background-image: url(img/gambar1.jpeg);
+    width: 100%;
+    height: 450px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+.gambar-apple2 {
+    background-image: url(img/gambar2.jpeg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    background-position: 0 -45px;
+}
+.gambar-apple3 {
+    background-image: url(img/gambar3.jpeg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    background-position: 0 -240px;
+}
+/* style row pertama akhir */
+
+
+/* style row ketiga awal */
+.pembungkus3 {
+    width: 100%;
+    background-color: #5a5554;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.isi-box1-products1 {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.box1-products1 {
+    width: 280px;
+    height: 410px;
+    background-color: rgb(105, 101, 101);
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 8px 5px 2px rgb(28, 28, 28);
+    box-sizing: border-box;
+    transition-timing-function: calc(ease-in-out);
+}
+.box1-products1:hover {
+    box-shadow: 0 0 10px 5px rgb(28, 28, 28);
+    transform: translateY(-10px);
+}
+.isi-box2-products2 {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box2-products2 {
+    width: 280px;
+    height: 410px;
+    background-color: rgb(105, 101, 101);
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 8px 5px 2px rgb(28, 28, 28);
+    box-sizing: border-box;
+    transition-timing-function: calc(ease-in-out);
+}
+.box2-products2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 5px rgb(28, 28, 28);
+}
+.isi-box3-products3 {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.box3-products3 {
+    width: 280px;
+    height: 410px;
+    background-color: rgb(105, 101, 101);
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 8px 5px 2px rgb(28, 28, 28);
+    box-sizing: border-box;
+    transition-timing-function: calc(ease-in-out);
+}
+.box3-products3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 5px rgb(28, 28, 28);
+}
+.box4-products4 {
+    width: 280px;
+    height: 410px;
+    background-color: rgb(105, 101, 101);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    transition: 1s;
+    box-shadow: 0 8px 5px 2px rgb(28, 28, 28);
+    box-sizing: border-box;
+    transition-timing-function: calc(ease-in-out);
+}
+.box4-products4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 5px rgb(28, 28, 28);
+}
+.box5-products5 {
+    width: 280px;
+    height: 410px;
+    background-color: rgb(105, 101, 101);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom:40px ;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 8px 5px 2px rgb(28, 28, 28);
+    box-sizing: border-box;
+    transition-timing-function: calc(ease-in-out);
+}
+.box5-products5:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 5px rgb(28, 28, 28);
+}
+.box6-products6 {
+    width: 280px;
+    height: 410px;
+    background-color: rgb(105, 101, 101);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 8px 5px 2px rgb(28, 28, 28);
+    box-sizing: border-box;
+    transition-timing-function: calc(ease-in-out);
+}
+.box6-products6:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 5px rgb(28, 28, 28);
+}
+.border-angka {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+    box-sizing: border-box;
+    float: left;
+}
+.icon-apple {
+    display: flex;
+    justify-content: right;
+}
+.fab {
+    font-size: 30px;
+    margin-top: 8px;
+    margin-right: 9px;
+    color: black;
+    font-weight: bold;
+}
+.img-products1 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products1-ipxr.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.img-products2 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products2-ip11pro.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.img-products3 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products3-ip12promax.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -21px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.img-products4 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products4-ip12mini.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.img-products5 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products5-ip13promax.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -28px 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.img-products6 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products6-ip15promax.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.nama-text {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    color: rgb(22, 21, 21);
+    font-weight: bold;
+    word-spacing: 1px;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-offset: 2px;
+}
+.penjelasan-text {
+    font-variant: small-caps;
+    color: rgb(22, 21, 21);
+    margin-top: -15px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: monospace;
+    font-weight: 500;
+    cursor: default;
+}
+.posisi-button {
+    display: flex;
+    justify-content: right;
+}
+.click {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.products-lainnya {
+    display: flex;
+    justify-content: right;
+}
+.button-products-lainnya {
+    margin-bottom: 40px;
+    margin-right: 125px;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(105, 101, 101);
+    border-radius: 30px;
+    transition: 1s ;
+    transition-timing-function: calc(ease-in-out);
+    box-shadow: 0 0 8px 5px rgb(28, 28, 28) ;
+    letter-spacing: 1px;
+}
+.button-products-lainnya:hover {
+    box-shadow: 0 0 15px 5px rgb(28, 28, 28) ;
+}
+/* style row ketiga akhir */
+
+/* style row keempat awal */
+.pembungkus4 {
+    background-color:  #5a5554 ;
+    display: flex;
+    justify-content: center;
+}
+.box-whyme {
+    display: block;
+    justify-content: center;
+}
+.whyme {
+    width: 1000px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    background-color: rgb(224, 217, 217);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: 1s;
+    transition-timing-function: calc(ease-in);
+    transition-duration: 2s;
+    box-shadow: 0 8px 4px 3px rgb(52, 51, 51);
+    backdrop-filter: blur(10px);
+}
+.whyme:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0px 8px 3px rgb(52, 51, 51);
+}
+.p1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:  'Segoe UI', Arial ;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.p1:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.p2 {
+    margin-left: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(24, 21, 21);
+    cursor: default;  
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.penjelasan-button {
+    margin-left: 10px;
+    margin-bottom:10px ;
+    background-color: #383535;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    font-family: monospace;
+    text-transform: uppercase;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 0 5px 2px rgb(34, 33, 33);
+    transition: 1s;
+}
+.penjelasan-button:hover {
+    box-shadow: 0 0 10px 2px rgb(34, 33, 33);
+    transform: scale(1.02);
+}
+.hidden {
+    display: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: rgb(24, 21, 21) ;
+    font-weight: bold;
+    font-family: monospace;
+}
+/* style row keempat akhir */
+
+/* style row kelima awal */
+.pembungkus-get {
+    display: flex;
+    justify-content: center;
+}
+.box-get {
+    width: 500px;
+    background-color: rgb(135, 131, 131);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+.text-get {
+    display: flex;
+    justify-content: center;
+}
+.p5 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(24, 21, 21);
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.p5:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.input {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 96%;
+    padding-left: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.input-email {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 96%;
+    padding-left: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.input-textarea {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+    height: 100px;
+    padding-left: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.button-get {
+    display: flex;
+    justify-content: center;
+}
+.kirim {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    border-radius: 10px;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(71, 67, 67) ;
+}
+/* style row kelima awal */
+
+
+/* style row footer awal */
+.pembungkus5 {
+    display: flex;
+    width: 100%;
+    background-color:  rgb(120, 115, 115);
+}
+.end {
+    display: flex;
+}
+.products {
+    display: block;
+    justify-content: left;
+}
+.p6 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-right: 20px;
+    color:  rgb(24, 21, 21);
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.p6:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.footer1 {
+    display: flex;
+    float: left;
+}
+li {
+    margin-bottom: -15px;
+}
+.li-1 {
+    margin-top: -15px;
+}
+.li-5 {
+    margin-bottom: 15px;
+}
+/* style row footer akhir */
+
+/* style end footer awal */
+.pembungkus6 {
+    width: 100%;
+    background-color:  rgb(115, 106, 106) ;
+    height: 50px;
+    box-sizing: border-box;
+}
+.end-footer {
+    display: flex;
+    justify-content: center;
+}
+.p7 {
+    text-align: center;
+    font-family: monospace;
+    color:  rgb(24, 21, 21);
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-top: 13px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+/* style end footer akhir */
+
+
+@media (max-width: 768px) {
+    /* media style navbar awal */
+    .logo1 {
+        margin-left: -24px;
+    }
+    .text {
+        margin-left: -12px;
+        margin-top: 18px;
+        color: black;
+    }
+    li {
+        margin-right: -5px;
+        font-size: 12px;
+        margin-top: 22px;
+    }
+    .li1 {
+        padding-right: 7px;
+    }
+    .li2 {
+        margin-left: -20px;
+        padding-right: 7px ;
+    }
+    /* media style navbar akhir */
+
+
+    /* media style row pertama awal */
+    .gambar-apple1 {
+        width: 100%;
+        height: 300px;
+        background-position: -60px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -25px 0;
+        gap: 10px;
+    }
+    .gambar-apple2 {
+        width: 100%;
+        height: 300px;
+        background-image: url(img/gambar2dihp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -30px;
+        gap: 10px;
+    }
+    .gambar-apple3 {
+        width: 100%;
+        height: 300px;
+        background-image: url(img/gambar3dihp.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px -15px;
+        gap: 10px;
+    }
+    /* media style row pertama akhir */
+
+    /* media style row kedua awal */
+    .text-promo {
+        margin-top: 7px;
+    }
+    /* media style row kedua akhir */
+
+    /* media style row ketiga awal */
+    .isi-box1-products1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        float: none;
+    }
+    .box1-products1 {
+        width: 300px;
+        height: 400px;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 17px;
+        box-sizing: border-box;
+        background-color: rgb(105, 101, 101);
+    }
+    .isi-box2-products2 {
+        justify-content: center;
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box2-products2 {
+        width: 300px;
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        background-color: rgb(105, 101, 101);
+    }
+    .isi-box3-products3 {
+        justify-content: center;
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box3-products3 {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        background-color: rgb(105, 101, 101);
+    }
+    .box4-products4 {
+        width: 300px;
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        background-color: rgb(105, 101, 101);
+    }
+    .box5-products5 {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        background-color: rgb(105, 101, 101);
+    }
+    .box6-products6 {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        background-color: rgb(105, 101, 101);
+    }
+    .border-angka {
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+    .fab {
+        font-size: 24px;
+        margin-top: 8px;
+        margin-right: 8px;
+        color: black;
+        font-weight: bold;
+    }
+    .img-products1 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -35px;
+        box-sizing: border-box;
+    }
+    .img-products2 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -25px;
+        box-sizing: border-box;
+    }
+    .img-products3 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -28px;
+        box-sizing: border-box;
+    }
+    .img-products4 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -23px;
+        box-sizing: border-box;
+    }
+    .img-products5 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: -22px 0px;
+        box-sizing: border-box;
+    }
+    .img-products6 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -30px;
+        box-sizing: border-box;
+    }
+    .nama-text {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 6px;
+        margin-top: -2px;
+        color: rgb(22, 21, 21);
+        font-weight: bold;
+        word-spacing: 1px;
+        font-size: 0.8rem;
+    }
+    .penjelasan-text {
+        color: rgb(22, 21, 21);
+        margin-top: -14px;
+        margin-left: 6px;
+        font-size: 0.7rem;
+        font-weight: 500;
+
+    }
+    .click {
+        margin-top: -20px;
+        margin-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .products-lainnya {
+        display: flex;
+        justify-content: center;
+    }
+    .button-products-lainnya {
+        margin-bottom: 40px;
+        margin-right: 0px;
+        font-family: monospace;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: rgb(105, 101, 101);
+    }
+    /* media style row ketiga awal */
+
+    /* style row keempat awal */
+    .whyme {
+        width: 95vw;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        box-sizing: border-box;
+    }
+    .p2 {
+        margin-right: 5px;
+        color: rgb(24, 21, 21);
+    }
+    .penjelasan-button {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .hidden {
+        display: none;
+        margin-right: 5px;
+        color: rgb(24, 21, 21) ;
+    }
+    /* style row keempat akhir */
+
+    /* style row ke lima awal */
+    .box-get {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 50px;
+        box-sizing: border-box;
+    }
+    .input {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .input-textarea {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .input-email {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    /* style row ke lima akhir */
+
+    /* style row footer awal */
+    .p6 {
+        margin-left: 15px;
+    }
+    li {
+        margin-bottom: -18px;
+        margin-left: -14px;
+    }
+    .li-1 {
+        margin-top: -13px;
+    }
+    .li-5 {
+        margin-bottom: 18px;
+    }
+    /* style row footer akhir */
+
+    /* row end footer awal */
+    .pembungkus6 {
+        width: 100%;
+        height: 40px;
+    }
+    .p7 {
+        font-size: 0.7rem;
+        padding-top: 13px;
+    }
+    /* row end footer akhir */
+}
